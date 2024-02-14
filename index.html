@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <title>Party Events</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Party Events</h1>
+        <form id="party-form">
+            <label for="name">Event Name:</label>
+            <input type="text" id="name" required>
+            <label for="description">Event Description:</label>
+            <textarea id="description" required></textarea>
+            <label for="date">Event Date:</label>
+            <input type="datetime-local" id="date" required>
+            <label for="location">Event Location:</label>
+            <input type="text" id="location" required>
+            <button type="submit">Create Event</button>
+        </form>
+        <section id="party-list"></section>
+    </div>
+
+</body>
+</html>
